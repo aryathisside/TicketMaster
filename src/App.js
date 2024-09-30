@@ -86,7 +86,7 @@ function App() {
     <div>
       <header>
         <Navigation currentAccount={currentAccount} setCurrentAccount={setCurrentAccount} />
-        <h2 className="header__title"><strong>Welcome to TicketMaster</strong></h2>
+        {/* <h2 className="header__title"><strong>Welcome to TicketMaster</strong></h2> */}
       </header>
 
       <Sort />
